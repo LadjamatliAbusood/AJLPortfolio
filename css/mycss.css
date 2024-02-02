@@ -425,6 +425,13 @@ details > summary::-webkit-details-marker {
     color: #707070;
     font-size: 18px;
   }
+  .cnt-label4 span {
+    position: center;
+    padding-left: 12px;
+    color: #707070;
+    font-size: 18px;
+  }
+
   .cnt-label3 span {
     position: center;
     padding-left: 12px;
@@ -537,6 +544,13 @@ details > summary::-webkit-details-marker {
     background-color: #fafafa;
     border-radius: 4px;
   }
+  .q-ad-b {
+    display: block;
+    padding: 8px;
+    border: 1px solid #eeeeee;
+    background-color: #fafafa;
+    border-radius: 4px;
+  }
   
   .q-ad img {
     display: inline;
@@ -550,6 +564,13 @@ details > summary::-webkit-details-marker {
     position: relative;
     top: 1px;
     color: #242424;
+    font-size: 14px;
+    text-align: center;
+  }
+  .q-ad-b span {
+    position: relative;
+    top: 1px;
+    color: #2196f3;
     font-size: 14px;
     text-align: center;
   }
