@@ -51,7 +51,9 @@
         <div id="profile-pic">
           <img src="image/profileimage.jpg">
         </div>
-        <div id="u-name">Ladjamatli, Abusood Jumat. / AJ </div>
+        <div id="u-name">
+          AJ Ladjamatli
+          </div>
 
         <div class="tb" id="m-btns">
         </div>
@@ -489,6 +491,31 @@
 
 </html>
 
+<style>
+  #u-name {
+    position: absolute;
+    top: 120px;
+    left: 208px;
+    color: #fff;
+    font-size: 46px;
+    font-weight: bold;
+    width: 20ch;
+    font-family: monospace;
+    text-wrap: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(20) infinite
+    alternate-reverse;
+  }
+
+ 
+
+  @keyframes typing{
+    from{
+      width: 0ch;
+    }
+
+  }
+</style>
 <script>
   var dob = new Date("09/17/1998");
   var month_diff = Date.now() - dob.getTime();

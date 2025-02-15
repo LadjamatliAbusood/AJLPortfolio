@@ -296,14 +296,7 @@ details > summary::-webkit-details-marker {
     width: 100%;
   }
   
-  #u-name {
-    position: absolute;
-    top: 120px;
-    left: 208px;
-    color: #fff;
-    font-size: 36px;
-    font-weight: bold;
-  }
+
   
   #m-btns {
     position: absolute;
